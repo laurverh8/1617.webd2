@@ -2,19 +2,50 @@
   box-sizing: border-box;
 }
 
+
+
 html, body {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
+ 
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
+.main-navigation-wrapper * {
+    box-sizing: border-box;
+}
 
-  color: rgba(232,234,246 ,1);
+.main-navigation-wrapper{
+  text-align: center;
+  display: block;
+  margin:10px ;
+}
+
+.main-navigation {
+    display:inline;
+    font-size:18px;
+    
+}
+.main-navigation > ul {
+    list-style:none;
+    text-align: center;
+    padding:0;
+   
+}
+.main-navigation > ul > li {
+    display:inline;
+    list-style-type: none;
+}
+.main-navigation > ul > li > a {
+    display:inline;
+    text-decoration:none;
+    text-align: center;
+    padding:14px 20px;
+    color:#ababab;
+}
+
+.main-navigation > ul > li > a:hover {
+  color:#ee779e;
+    
 }
 
 .intro {
@@ -26,3 +57,202 @@ body {
   background: rgba(41,182,246 ,1);
   color: rgba(1,87,155 ,1);
 }
+
+.footer-wrapper {
+  background-color:black;
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  bottom: 0
+  
+}
+
+a{
+  text-decoration: none;
+}
+/* button stijlen */
+.button{
+  width:200px;
+  height:60px;
+  display:block;
+  color:#ababab;
+  
+  padding:15px;
+  border-style:solid;
+  border-color: #ababab;
+  border-width: 3px;
+  float:left;
+  margin-right: 2%;
+  
+}
+
+.zoekbutton{
+  width:200px;
+  height:60px;
+  display:block;
+  color:#ababab;
+  padding:15px;
+  border-width: 3px;
+  float:left;
+  margin-right: 2%;
+}
+
+.zoekbutton navigatie{
+  float:right;
+}
+.clear{
+ left;
+}
+
+.buttonhover{
+  width:200px;
+  height:60px;
+  display:block;
+  background-color:#ababab;
+  color: white;
+  
+  padding:15px;
+  border-style:solid;
+  border-color:#ababab;
+  border-width: 3px;
+  float:left;
+  margin-right: 2%;
+}
+
+.buttonhover2{
+  width:200px;
+  height:60px;
+  display:block;
+  padding:15px;
+  float:left;
+  margin-right: 2%;
+  display:inline;
+  text-decoration:none;
+  text-align: center;
+  padding:14px 20px;
+  color:#ee779e
+}
+
+.left{
+  text-align: left;
+  
+}
+
+a.logo{
+ 
+  display:block; /* eerst van de a een block-element maken */
+  width: 150px;
+  height:100px;
+  float: right;
+  /* background*/
+  background-image: url(../img/zoek.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+  /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+  margin:0px
+}
+
+.hero
+
+ {
+  background: #CCC url(../img/banner.png) no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height:  200px;
+  position: relative;
+}
+.hero__text { 
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  position:  absolute;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+}
+.hero__title { 
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+
+.kleur{
+  width: 50%
+}
+
+.fa-facebook-square {
+  float:left;
+  display:block;
+  margin-right: 2%;
+  color:#ee779e
+}
+.fa-twitter-square {
+  float:left;
+  display:block;
+  margin-right: 2%;
+  color:#ee779e
+} 
+.fa-instagram {
+  float:left;
+  display:block;
+  margin-right: 2%;
+  color:#ee779e
+}
+
+
+
+
+
+
+/*form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:#ee779e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:white;
+    color: #ee779e
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+
+
+
+
+
+
