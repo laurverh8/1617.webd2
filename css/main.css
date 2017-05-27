@@ -24,6 +24,7 @@ html, body {
 .main-navigation {
     display:inline;
     font-size:18px;
+    overflow: hidden
     
 }
 .main-navigation > ul {
@@ -36,6 +37,7 @@ html, body {
     display:inline;
     list-style-type: none;
     float: left;
+    position: relative;
 }
 .main-navigation > ul > li > a {
     display:inline;
@@ -44,11 +46,27 @@ html, body {
     padding:14px 20px;
     color:#ababab;
 }
-
-.main-navigation > ul > li > a:hover {
-  color:#ee779e;
-    
+.main-navigation > ul > li > a:hover{
+    display:inline;
+    text-decoration:none;
+    text-align: center;
+    padding:14px 20px;
+    color:#ea4f51;
 }
+
+li{
+  float: left;
+}
+
+ ul{
+   list-style: none;
+   
+ }
+
+
+
+
+
 
 
 
@@ -94,7 +112,6 @@ a{
   display:block;
   background-color:#ababab;
   color: white;
-  
   padding:15px;
   border-style:solid;
   border-color:#ababab;
@@ -114,7 +131,7 @@ a{
   text-decoration:none;
   text-align: center;
   padding:14px 20px;
-  color:#ee779e
+  color:#ea4f51;
 }
 
 .left{
@@ -123,6 +140,8 @@ a{
 }
 .right{
   text-align: right;
+  float:right;
+  margin-right: 2px
 }
 .quote{
   width:600px;
@@ -158,20 +177,20 @@ a.zoek{
   float:left;
   display:block;
   margin-right: 2%;
-  color:#ee779e;
+  color:#c9484d;
   
 }
 .fa-twitter-square {
   float:left;
   display:block;
   margin-right: 2%;
-  color:#ee779e
+  color:#c9484d;
 } 
 .fa-instagram {
   float:left;
   display:block;
   margin-right: 2%;
-  color:#ee779e
+  color:#c9484d;
 }
 
 
@@ -194,7 +213,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-    background-color:#ee779e;
+    background-color:#ea4f51;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -204,7 +223,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color:white;
-    color: #ee779e
+    color: #ea4f51;
 }
 
 
@@ -234,7 +253,7 @@ input[type=submit]:hover {
 
 .footer-wrapper{
   width:100%;
-  height:500px;
+  height:350px;
   background-color: #d5d5d5;
   display: block;
   color:white;
@@ -242,17 +261,18 @@ input[type=submit]:hover {
   border: none;
   
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   border-top: 15px;
 
 }
 
 .footerlink{
   color:white;
+  text-decoration: underline;
 }
 
 .footerlink:hover{
-  color: #ee779e
+  color: #ea4f51
 } 
 
 .iconen{
@@ -260,12 +280,64 @@ input[type=submit]:hover {
   height:12px;
   border:0px;
   margin-right: 5%;
-  float:right;
+  float:left;
 }
 
 th {
   text-align: right; 
   float: left
 }
+/*portfolio*/
 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.underline{
+  text-decoration: underline;
+    
+}
+
+.navigatiefooter {
+    display:inline;
+    color: white;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.42;
+   
+    
+}
+
+.navigatiefooter:hover {
+    display:inline;
+    color: #ea4f51;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.42;
+    
+}
 

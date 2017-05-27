@@ -13,7 +13,7 @@ body {
   line-height: 1.42;
   text-decoration: underline;
   margin-bottom: 50px;
-  color: #ee779e;
+  color:#ea4f51;
 
   
   
@@ -25,7 +25,7 @@ h1{
   font-style: normal;
   line-height: 1.42;
   text-decoration: underline;
-  color: #ee779e
+  color: #ea4f51;
  
 }
 
@@ -62,7 +62,7 @@ p {
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
-  color:#ee779e;
+  color:#ea4f51;
 }
 
 .button{
@@ -83,7 +83,7 @@ p {
 th{
     font-family: 'Dosis', sans-serif;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 500;
   font-style: normal;
   line-height: 1.42;
   list-style: none;
